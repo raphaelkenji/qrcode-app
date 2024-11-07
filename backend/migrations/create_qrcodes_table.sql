@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS public.qrcodes
+(
+    id SERIAL PRIMARY KEY,
+    url TEXT NOT NULL
+    path TEXT NOT NULL,
+    creation_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
